@@ -24,5 +24,9 @@ threshold t in range of grayvlues.then\
  
 ![isodata](https://user-images.githubusercontent.com/123463350/217581718-2c2b5938-6506-489c-8bff-c6f0e458c00a.PNG)\
 
+* **Yen** - 
+
+* **Triangle**
+
 
 

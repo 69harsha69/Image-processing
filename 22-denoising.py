@@ -38,7 +38,6 @@ sigma = np.mean(estimate_sigma(img,multichannel=False))
 nlm = denoise_nl_means(img,h=1.15*sigma,fast_mode=True,patch_size = 5,patch_distance=3,multichannel=False)
 
 
-
 # plt.subplot(1,4,1)
 # plt.imshow(gauss_img)
 # plt.subplot(1,4,2)

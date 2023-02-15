@@ -18,7 +18,7 @@ entropy_img = entropy(img, disk(3))
 plt.imshow(entropy_img, cmap = plt.cm.gray)
 
 #check which threshold works best
-# fig,ax = try_all_threshold(entropy_img,verbose = False)
+fig,ax = try_all_threshold(entropy_img,verbose = False)
 
 
 thresh = threshold_otsu(entropy_img)

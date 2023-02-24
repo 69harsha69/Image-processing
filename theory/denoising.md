@@ -26,3 +26,14 @@ and edges can be preserved.
 
 ## Denoising by non local means
 
+Mainly used for denoising imagages if you have an image with various types of textures while preserving the textures and effectively cleaning it.Bascically looking
+
+![nlm](https://user-images.githubusercontent.com/123463350/221210354-41fb175e-a070-4444-9a1e-31a50e4326eb.PNG)
+
+the weighted average of all pixels in image but the family of weights is assigned based on the similarity between the neighbourhood patches
+
+![nlm1](https://user-images.githubusercontent.com/123463350/221213994-5ae4d403-feeb-48fa-9364-50cc488099a5.PNG)
+
+![nlm2](https://user-images.githubusercontent.com/123463350/221214058-e1d077cb-304d-4f84-b43b-25fed1a84136.PNG)
+
+search for patches in whole image is practically not possible so typical search window is 31x31 and typical patch_size ranges from 7x7 to 15x15

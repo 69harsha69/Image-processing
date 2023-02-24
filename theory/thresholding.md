@@ -26,7 +26,14 @@ threshold t in range of grayvlues.then\
 
 * **Yen** - 
 
-* **Triangle**
+* **OTSU** -  Usually otsu thresholding is done when there are 2 peaks in histogram.The threshold value is which minimizes the class variances(bg and fg)
+
+
+
+* **Triangle** - line is drawn from highest bar in histogram to the end of the histogram.The largest perpendicular histance from the line to each bar under this line is considered as optimal threshold
+
+
+![triangle](https://user-images.githubusercontent.com/123463350/221206287-77a3a9a2-0563-4fe6-ba89-e4575018c8c2.PNG)
 
 
 

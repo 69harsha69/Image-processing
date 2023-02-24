@@ -19,7 +19,7 @@ sigma_est = np.mean(estimate_sigma(img,multichannel=False))
 denoise = denoise_nl_means(img,h = 1.15*sigma_est,fast_mode=True,patch_size = 5,patch_distance=6,multichannel=False)
 
 #do histogram equalizaiton
-#making dark pixles darker and bright pixles brighter
+#Stretching the histogram
 eq_hist = exposure.equalize_adapthist(denoise)
 
 #random walker
